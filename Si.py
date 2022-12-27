@@ -28,7 +28,6 @@ class Student:
         self.dish+=5
     def money(self):
         print("Час підробітки")
-        self.money+=32
     def is_alive(self):
         if self.progress<-0.5:
             print("Відрахували...")
