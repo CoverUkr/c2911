@@ -1,17 +1,17 @@
-#print(f"NameError - {type(NameError)} - {issubclass(NameError,BaseException)}")
-#try:
-    #print("start code")
-    #print(error)
-    #print("no error")
-#except NameError:
-    #print("we have an errors")
-#print("after capsule")
+print(f"NameError - {type(NameError)} - {issubclass(NameError,BaseException)}")
+try:
+    print("start code")
+    print(error)
+    print("no error")
+except NameError:
+    print("we have an errors")
+print("after capsule")
 
-#a=int(input())
-#b=int(input())
-#c=int(input())
-#d=a+b+c
-#print(d)
+a=int(input())
+b=int(input())
+c=int(input())
+d=a+b+c
+print(d)
 
 class BildingError(Exception):
     def __str__(self):

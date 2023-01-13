@@ -1,41 +1,41 @@
-#class Human:
-    #height=180
+class Human:
+    height=180
 
-#class Student(Human):
-    #satiety=0
+class Student(Human):
+    satiety=0
 
-#class Worker(Human):
-    #satiety=100
+class Worker(Human):
+    satiety=100
 
-#mark=Student()
-#nick=Worker()
-#print(nark.satiety)
-#print(nick.satiety)
+mark=Student()
+nick=Worker()
+print(mark.satiety)
+print(nick.satiety)
 
-#class Granparents:
-    #height=170
-    #age=60
-    #satiety=100
-#class Parents(Granparents):
-    #age=40
-#class Child(Parents):
-    #height = 50
-    #def __init__(self):
-        #print(self.height)
-        #print(self.satiety)
-        #print(self.age)
+class Granparents:
+    height=170
+    age=60
+    satiety=100
+class Parents(Granparents):
+    age=40
+class Child(Parents):
+    height = 50
+    def __init__(self):
+        print(self.height)
+        print(self.satiety)
+        print(self.age)
 
-#nick=Child()
+nick=Child()
 
-#class Grandparents:
-    #def __init__(self):
-        #print("Hello")
+class Grandparents:
+    def __init__(self):
+        print("Hello")
 
-#class Parents(Grandparents):
-    #def __init__(self):
-        #super().__init__()
-        #print("World")
-#nick=Parents()
+class Parents(Grandparents):
+    def __init__(self):
+        super().__init__()
+        print("World")
+nick=Parents()
 
 class Computer:
     def calculate(self):
